@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+
+
+/* ###########################   BANNER   #########################################*/
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px;
+}
+
+
+body {
+  margin: 100px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/3b/COVID-19_Outbreak_World_Map_per_Capita.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*##############################   Total Population  ###############################*/
+
+.title {
+	color: #ffffff;
+	background-color: #000000;
+	padding: 20px;
+	margin: 0px;
+	line-height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  width: 50%;
+}
+
+h2 {
+	color: #ffffff;
+	background-color: #8B0000;
+	padding: 20px;
+	margin: 10px;
+	float: right;
+	line-height: 100px;
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+/* #######################   NAVIGATION BAR ################################*/
+
+/* Search box */
+.form-control input[type=text] {
+  float: left;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 200px;
+  font-size: 17px;
+  border: none;
+}
+
+.center button {
+  float: none;
+  padding: 6px 10px;
+  background: #fff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ##########################  ITEM LIST  #################################*/
+
+h2 {
+	color: #000000;
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+	line-height: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: maroon;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#person
+{
+  max-width: 3%;
+}
+
+.card1
+{
+  float: left;
+  width: 30%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  padding: 60px;
+  background-color: black;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.card1:hover
+{
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 255);
+}
+
+h3
+{
+  font-size: 40px;
+  text-align: center;
+  height: auto;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: white;
+}
